@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/projcom/public_html
+    - /bin/cp -r build/* $DEPLOYPATH
